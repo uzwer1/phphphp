@@ -6,7 +6,10 @@
     <title>PHPHPHP</title>
 </head>
 <body>
-<?php $title = 'Header 01' ?>
-<h1><?= $title ?></h1>
+<?php $title01 = 'Header 01' ?>
+<?php $paragraph01 = 'Lorem ipsum' ?>
+<?php $paragraph02 = 'dolor sit' ?>
+<h1><?= $title01 ?></h1>
+<p><?= $paragraph01 . ' ' . $paragraph02 . '.' ?></p>
 </body>
 </html>
