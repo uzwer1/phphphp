@@ -6,6 +6,7 @@
     <title>PHPHPHP</title>
 </head>
 <body>
-<h1><?=</h1>
+<?php $title = 'Header 01' ?>
+<h1><?= $title ?></h1>
 </body>
 </html>
